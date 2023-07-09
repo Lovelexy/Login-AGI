@@ -93,29 +93,27 @@
           <div class="row g-0">
             <div class="col-10 col-lg-9 col-xl-8 mx-auto">
               <h3 class="fw-600 mb-4">Log In</h3>
-              <form action="https://app.winker.com.br/intra/default/login?wl=even" id="loginForm" method="post" name="loginForm" class="ng-pristine ng-valid ng-scope">
-                <div class="mb-3">
-                  <label for="emailAddress" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" id="emailAddress" required placeholder="Insira o e-mail">
-                </div>
-                <div class="mb-3">
-                  <label for="loginPassword" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="loginPassword" required placeholder="Insira a senha">
-                </div>
-                <div class="row mt-4">
-                  <!-- <div class="col">
-                    <div class="form-check">
-                      <input id="remember-me" name="remember" class="form-check-input" type="checkbox">
-                      <label class="form-check-label" for="remember-me">Remember Me</label>
-                    </div>
-                  </div> -->
-                  <div class="col text-end"><a href="forgot-password.html">Esqueceu a senha?</a></div>
-                </div>
-                <div class="d-grid my-4">
-					<button class="btn btn-primary" type="submit">Acessar</button>
-          <input type="hidden" value="https://www.even.com.br/" name="from" autocomplete="off">
-				</div>
-              </form>
+                    <form action="https://app.winker.com.br/intra/default/login?wl=even" id="loginForm" method="post" name="loginForm"
+                      class="ng-pristine ng-valid ng-scope">
+                      <div class="mb-3">
+                        <label for="emailAddress" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="LoginForm_username" name="LoginForm[username]" required placeholder="Insira o e-mail">
+                      </div>
+                      <div class="mb-3">
+                        <label for="loginPassword" class="form-label" >Senha</label>
+                        <input type="password" class="form-control" id="LoginForm_username" name="LoginForm[password]" required placeholder="Insira a senha">
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col text-end"><a href="forgot-password.html">Esqueceu a senha?</a></div>
+                      </div>
+                      <div class="d-grid my-4">
+                        <button class="btn btn-primary" type="submit">Acessar</button>
+                    
+                      </div>
+                      <fieldset style="font-family: Arial;">
+                        <input type="hidden" value="https://www.even.com.br" name="from" autocomplete="off">
+                      </fieldset>
+                    </form>
               <p class="text-center mb-0">Precisa de ajuda? <a class="link-primary" href="register.html"><u>Clique aqui.</u></a></p>
             </div>
           </div>

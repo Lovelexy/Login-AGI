@@ -562,9 +562,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575.98px) {
   .oxyy-login-register .modal .close {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    right: 8px;
+   
   }
 }
 
@@ -1437,6 +1437,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .oxyy-login-register .btn-link:hover, .oxyy-login-register .link-primary:hover {
   color: #fcb962 !important;
+  cursor: pointer;
 }
 
 .oxyy-login-register .text-secondary {

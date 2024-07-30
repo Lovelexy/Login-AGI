@@ -609,7 +609,7 @@ h1, h2, h3, h4, h5, h6 {
 .oxyy-login-register .hero-wrap .hero-bg {
   z-index: 0;
   background-attachment: fixed;
-  background-position: right 6% bottom 45%;
+  background-position: left 6% bottom 45%;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;

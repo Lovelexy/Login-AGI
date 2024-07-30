@@ -108,7 +108,7 @@
 		border-radius: 4rem;
 	}
 	.oxyy-login-register .hero-wrap .hero-bg.hero-bg-scroll{
-		background-image:url('../images/images/mobile-2.jpg') !important;
+		background-image:url('../images/images/mobile.jpg') !important;
 	}
 	.modal-content {
 		width: 80% !important;
@@ -133,7 +133,7 @@
 		font-size:1.3rem!important;
 	  }
 	.oxyy-login-register .hero-wrap .hero-bg.hero-bg-scroll{
-		background-image:url('../images/images/hero.png')
+		background-image:url('../images/images/mobile-3.jpg')
 
 	}
 }
